@@ -20,11 +20,9 @@ However, existing end-to-end driving frameworks often suffer from entangled feat
 ### Key Contributions
 
                                                
-<p align="center">
-    <img src="assets/PWCA.png" alt="Parallel-Weighted Compound Attention" width="45%">
-    &nbsp;&nbsp;
-    <img src="assets/last.png" alt="Context-Aware Dynamic Fusion"width="45%">                                  
-</p>   
+![teaser](assets/teaser.png)
+![teaser](assets/PWCA.png)
+
 
 **Re-TCP** introduces three core innovations:
 
@@ -40,11 +38,11 @@ However, existing end-to-end driving frameworks often suffer from entangled feat
 
 Extensive closed-loop evaluations on the **CARLA Leaderboard** and **Bench2Drive** benchmarks demonstrate that Re-TCP significantly outperforms the baseline:
 
-<p align="center">
-  <img src="assets/b2d_bev.png" alt="Bench2Drive BEV Results" width="48%">
-  &nbsp;
-  <img src="assets/b2d_front.png" alt="Bench2Drive Front View Results" width="48%">
-</p>
+
+![teaser](assets/last.png)
+![teaser](assets/b2d_front.png)
+![teaser](assets/b2d_bev.png)
+
 
 Our framework substantiates the efficacy of attention-aware perception, structured state modeling, and context-aware fusion strategies in enabling safe, interpretable, and scalable autonomous driving within IoT-enabled transportation ecosystems.
 
@@ -236,26 +234,6 @@ python TCP/visual_attentionmap_last.py --checkpoint $CHECKPOINT --data_path $DAT
 
 # Visualize waypoints
 python TCP/visual_waypoint.py --checkpoint $CHECKPOINT --data_path $DATA_PATH
-```
-
----
-
-## Citation
-
-If you find this work useful for your research, please cite:
-
-```bibtex
-@INPROCEEDINGS{11097569,
-  author={Wang, Dongzhuo and Li, Yang and Chen, Weisi and Jiang, Xiaolong and Mu, Yao and Li, Dachuan},
-  booktitle={2025 IEEE Intelligent Vehicles Symposium (IV)},
-  title={PA-TCP: Interpretable End-to-End Autonomous Driving Through Parallel Adaptive Attention Mechanism and State Representation},
-  year={2025},
-  volume={},
-  number={},
-  pages={1725-1731},
-  keywords={Attention mechanisms;Navigation;Zero shot learning;Vehicle driving;Feature extraction;Safety;Parallel architectures;Brakes;Vehicle dynamics;Autonomous vehicles},
-  doi={10.1109/IV64158.2025.11097569}
-}
 ```
 
 ---
