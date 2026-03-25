@@ -268,4 +268,8 @@ For questions or issues, please open an issue on GitHub or contact:
 
 <p align="center">
   <i>Re-TCP: Towards Safe, Interpretable, and Scalable Autonomous Driving in IoT-Enabled Transportation</i>
+<<<<<<< HEAD
 </p>
+=======
+</p>
+>>>>>>> 57620a0802958935e25d48e71165b9685e0bb759
