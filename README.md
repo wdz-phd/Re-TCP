@@ -43,7 +43,7 @@ Extensive closed-loop evaluations on the **CARLA Leaderboard** and **Bench2Drive
 ![teaser](assets/b2d_front.png)
 ![teaser](assets/b2d_bev.png)
 
-
+![teaser](assets/waypoint.png)
 Our framework substantiates the efficacy of attention-aware perception, structured state modeling, and context-aware fusion strategies in enabling safe, interpretable, and scalable autonomous driving within IoT-enabled transportation ecosystems.
 
 ---
